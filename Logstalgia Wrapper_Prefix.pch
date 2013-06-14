@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Logstalgia Wrapper' target in the 'Logstalgia Wrapper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		5DBC654510928A3B00DBB732 /* logstalgia in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC653E10928A3B00DBB732 /* logstalgia */; };
+		5DBC655110928A4300DBB732 /* libpcre.0.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBC654C10928A4300DBB732 /* libpcre.0.0.1.dylib */; };
+		5DBC655210928A4300DBB732 /* libpcre.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBC654D10928A4300DBB732 /* libpcre.dylib */; };
+		5DBC655310928A4300DBB732 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBC654E10928A4300DBB732 /* OpenGL.framework */; };
+		5DBC659810928A7F00DBB732 /* logstalgia in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC653E10928A3B00DBB732 /* logstalgia */; };
+		5DBC65BC10928B0100DBB732 /* ball.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC65B710928B0100DBB732 /* ball.tga */; };
+		5DBC65BD10928B0100DBB732 /* example.log in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC65B810928B0100DBB732 /* example.log */; };
+		5DBC65BE10928B0100DBB732 /* font.finfo in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC65B910928B0100DBB732 /* font.finfo */; };
+		5DBC65BF10928B0100DBB732 /* font.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC65BA10928B0100DBB732 /* font.tga */; };
+		5DBC65C010928B0100DBB732 /* logstalgia.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC65BB10928B0100DBB732 /* logstalgia.1 */; };
+		5DBC65E010928BED00DBB732 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC65DF10928BED00DBB732 /* MyWindowController.m */; };
+		5DBC660510928E7800DBB732 /* libpcre.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC654D10928A4300DBB732 /* libpcre.dylib */; };
+		5DBC660610928E7800DBB732 /* OpenGL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC654E10928A4300DBB732 /* OpenGL.framework */; };
+		5DBC660710928E7800DBB732 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC655010928A4300DBB732 /* SDL_image.framework */; };
+		5DBC660810928E7800DBB732 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DBC654F10928A4300DBB732 /* SDL.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DBC659910928A9D00DBB732 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				5DBC659810928A7F00DBB732 /* logstalgia in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC659E10928ABD00DBB732 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data;
+			dstSubfolderSpec = 7;
+			files = (
+				5DBC65BC10928B0100DBB732 /* ball.tga in CopyFiles */,
+				5DBC65BD10928B0100DBB732 /* example.log in CopyFiles */,
+				5DBC65BE10928B0100DBB732 /* font.finfo in CopyFiles */,
+				5DBC65BF10928B0100DBB732 /* font.tga in CopyFiles */,
+				5DBC65C010928B0100DBB732 /* logstalgia.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC660410928E7500DBB732 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5DBC660510928E7800DBB732 /* libpcre.dylib in CopyFiles */,
+				5DBC660610928E7800DBB732 /* OpenGL.framework in CopyFiles */,
+				5DBC660710928E7800DBB732 /* SDL_image.framework in CopyFiles */,
+				5DBC660810928E7800DBB732 /* SDL.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Logstalgia Wrapper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Logstalgia Wrapper_Prefix.pch"; sourceTree = "<group>"; };
+		5DBC653E10928A3B00DBB732 /* logstalgia */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = logstalgia; sourceTree = "<group>"; };
+		5DBC654C10928A4300DBB732 /* libpcre.0.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpcre.0.0.1.dylib; sourceTree = "<group>"; };
+		5DBC654D10928A4300DBB732 /* libpcre.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpcre.dylib; sourceTree = "<group>"; };
+		5DBC654E10928A4300DBB732 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+		5DBC654F10928A4300DBB732 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
+		5DBC655010928A4300DBB732 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_image.framework; sourceTree = "<group>"; };
+		5DBC65B710928B0100DBB732 /* ball.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ball.tga; sourceTree = "<group>"; };
+		5DBC65B810928B0100DBB732 /* example.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.log; sourceTree = "<group>"; };
+		5DBC65B910928B0100DBB732 /* font.finfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = font.finfo; sourceTree = "<group>"; };
+		5DBC65BA10928B0100DBB732 /* font.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.tga; sourceTree = "<group>"; };
+		5DBC65BB10928B0100DBB732 /* logstalgia.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = logstalgia.1; sourceTree = "<group>"; };
+		5DBC65DE10928BED00DBB732 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		5DBC65DF10928BED00DBB732 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Logstalgia Wrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logstalgia Wrapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				5DBC655110928A4300DBB732 /* libpcre.0.0.1.dylib in Frameworks */,
+				5DBC655210928A4300DBB732 /* libpcre.dylib in Frameworks */,
+				5DBC655310928A4300DBB732 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Logstalgia Wrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Logstalgia Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC65B610928B0100DBB732 /* data */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5DBC65DE10928BED00DBB732 /* MyWindowController.h */,
+				5DBC65DF10928BED00DBB732 /* MyWindowController.m */,
+			);
+			name = "Logstalgia Wrapper";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Logstalgia Wrapper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC654B10928A4300DBB732 /* frameworks */,
+				5DBC653E10928A3B00DBB732 /* logstalgia */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DBC654B10928A4300DBB732 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC654C10928A4300DBB732 /* libpcre.0.0.1.dylib */,
+				5DBC654D10928A4300DBB732 /* libpcre.dylib */,
+				5DBC654E10928A4300DBB732 /* OpenGL.framework */,
+				5DBC654F10928A4300DBB732 /* SDL.framework */,
+				5DBC655010928A4300DBB732 /* SDL_image.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		5DBC65B610928B0100DBB732 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC65B710928B0100DBB732 /* ball.tga */,
+				5DBC65B810928B0100DBB732 /* example.log */,
+				5DBC65B910928B0100DBB732 /* font.finfo */,
+				5DBC65BA10928B0100DBB732 /* font.tga */,
+				5DBC65BB10928B0100DBB732 /* logstalgia.1 */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Logstalgia Wrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Logstalgia Wrapper" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				5DBC659910928A9D00DBB732 /* CopyFiles */,
+				5DBC659E10928ABD00DBB732 /* CopyFiles */,
+				5DBC660410928E7500DBB732 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Logstalgia Wrapper";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Logstalgia Wrapper";
+			productReference = 8D1107320486CEB800E47090 /* Logstalgia Wrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Logstalgia Wrapper" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Logstalgia Wrapper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Logstalgia Wrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				5DBC654510928A3B00DBB732 /* logstalgia in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				5DBC65E010928BED00DBB732 /* MyWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logstalgia Wrapper_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = "Logstalgia Wrapper";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logstalgia Wrapper_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = "Logstalgia Wrapper";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Logstalgia Wrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Logstalgia Wrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
